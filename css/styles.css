@@ -130,26 +130,24 @@ background-color: var(--white-color);
 .page-header-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .site-nav {
   display: flex;
   align-items: center;
+  gap: 76px;
 }
 
 .header-logo {
   color: var(--dark-color);
-  margin-right: 76px;
 }
 
 /* Navigation Menu */
 .menu {
   display: flex;
   align-items: center;
-}
-
-.menu-item:not(:last-child) {
-  margin-right: 40px;
+  gap: 40px;
 }
 
 .menu-link {
@@ -164,17 +162,10 @@ background-color: var(--white-color);
 }
 
 /* Contacts */
-.address {
-  margin-left: auto;
-}
-
 .address-list {
   display: flex;
   align-items: center;
-}
-
-.address-item:not(:last-child) {
-  margin-right: 40px;
+  gap: 40px;
 }
 
 .address-link {
@@ -188,15 +179,12 @@ background-color: var(--white-color);
 
 /* Hero */
 .hero-section {
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding: 188px 0;
   background-color: var(--dark-color);
+  text-align: center;
 }
 
 .hero-title {
-  width: 494px;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 48px;
   font-size: 56px;
   line-height: 1.07;
@@ -205,9 +193,6 @@ background-color: var(--white-color);
 }
 
 .modal-btn {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   min-width: 169px;
   padding: 16px 32px;
   color: var(--white-color);
@@ -275,8 +260,7 @@ background-color: var(--white-color);
 
 /* Footer */
 .page-footer {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 0;
   background-color: var(--dark-color);
 }
 
