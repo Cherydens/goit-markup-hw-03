@@ -48,6 +48,7 @@ font-family: 'Roboto', sans-serif;
 font-size: 16px;
 line-height: 1.50;
 letter-spacing: 0.02em;
+
 color: var(--text-color);
 background-color: var(--white-color);
 }
@@ -123,14 +124,20 @@ background-color: var(--white-color);
 /* Header */
 .page-header {
   border-bottom: 1px solid var(--accent-color);
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .page-header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.header-logo,
+.menu-link,
+.address-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .site-nav {
@@ -180,16 +187,16 @@ background-color: var(--white-color);
 /* Hero */
 .hero-section {
   padding: 188px 0;
-  background-color: var(--dark-color);
   text-align: center;
+  background-color: var(--dark-color);
 }
 
 .hero-title {
   margin-bottom: 48px;
+  text-align: center;
+  color: var(--white-color);
   font-size: 56px;
   line-height: 1.07;
-  color: var(--white-color);
-  text-align: center;
 }
 
 .modal-btn {
