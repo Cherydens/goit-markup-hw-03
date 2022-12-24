@@ -54,11 +54,11 @@ background-color: var(--white-color);
 
 /* Components */
 .container {
-  width: 1152px;
+  width: 1158px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .title {
